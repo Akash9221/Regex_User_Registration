@@ -51,10 +51,23 @@ namespace Regex_User_Registration
             //}
 
             //UR6
+            //Console.Write("Enter The Password:");
+            //String pass = Console.ReadLine();
+
+            //if (UR6_Rule1.validate(pass))
+            //{
+            //    Console.WriteLine("Valid");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid");
+            //}
+
+            //UR7
             Console.Write("Enter The Password:");
             String pass = Console.ReadLine();
 
-            if (UR6_Rule1.validate(pass))
+            if (UR7_Rule2.validate(pass))
             {
                 Console.WriteLine("Valid");
             }
