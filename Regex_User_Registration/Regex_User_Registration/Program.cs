@@ -37,11 +37,24 @@ namespace Regex_User_Registration
             //    Console.WriteLine("Invalid Data");
             //}
 
-            //UR5
+            ////UR5
+            //Console.Write("Enter The Password:");
+            //String pass = Console.ReadLine();
+
+            //if (UR5_Rule.validate(pass))
+            //{
+            //    Console.WriteLine("Valid");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid");
+            //}
+
+            //UR6
             Console.Write("Enter The Password:");
             String pass = Console.ReadLine();
 
-            if (UR5_Rule.validate(pass))
+            if (UR6_Rule1.validate(pass))
             {
                 Console.WriteLine("Valid");
             }
