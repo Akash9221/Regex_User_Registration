@@ -17,13 +17,22 @@ namespace Regex_User_Registration
             //string LName = Console.ReadLine(); //  input for last name
             //Validation.LastNameValidation(LName);
 
-            Console.WriteLine("\n\nEnter your email name : ");
-            string email = Console.ReadLine(); 
-            bool checkEmail = UR3_Email_Validation.EmailValidation(email); //Calling method to check email 
-            
-                
+            //Console.WriteLine("\n\nEnter your email name : ");
+            //string email = Console.ReadLine(); 
+            //bool checkEmail = UR3_Email_Validation.EmailValidation(email); //Calling method to check email 
+            //Console.ReadLine();
 
-            Console.ReadLine();
+            Console.Write("Enter The Mobile Number:");
+            String mob = Console.ReadLine();
+
+            if (UR4_Mobile_Number_Validation.validate(mob))
+            {
+                Console.WriteLine("Valid Data");
+            }
+            else
+            {
+                Console.WriteLine("Invalid Data");
+            }
         }
     }
 }
