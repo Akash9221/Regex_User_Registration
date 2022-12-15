@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace Regex_User_Registration
 {
-    internal class UR4_Mobile_Number_Validation
-    {
-        public static string reg = "^[91]{2,2}[\\s][1-9]{10,10}";
-        public static bool validate(string word)
-        {
-            //return true if the word matches the regex
-            return Regex.IsMatch(word, reg);
-        }
-    }
+    //internal class UR4_Mobile_Number_Validation
+    //{
+    //    public static string reg = "^[91]{2,2}[\\s][1-9]{10,10}";
+    //    public static bool validate(string word)
+    //    {
+    //        //return true if the word matches the regex
+    //        return Regex.IsMatch(word, reg);
+    //    }
+    //}
 }
