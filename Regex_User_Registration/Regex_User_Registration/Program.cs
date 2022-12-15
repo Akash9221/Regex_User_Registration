@@ -64,10 +64,23 @@ namespace Regex_User_Registration
             //}
 
             //UR7
+            //Console.Write("Enter The Password:");
+            //String pass = Console.ReadLine();
+
+            //if (UR7_Rule2.validate(pass))
+            //{
+            //    Console.WriteLine("Valid");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid");
+            //}
+
+            //UR8
             Console.Write("Enter The Password:");
             String pass = Console.ReadLine();
 
-            if (UR7_Rule2.validate(pass))
+            if (UR8_Rule3.validate(pass))
             {
                 Console.WriteLine("Valid");
             }
@@ -75,6 +88,9 @@ namespace Regex_User_Registration
             {
                 Console.WriteLine("Invalid");
             }
+
+
+
         }
     }
 }

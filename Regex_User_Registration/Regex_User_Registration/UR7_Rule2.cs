@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace Regex_User_Registration
 {
-    internal class UR7_Rule2
-    {
-        public static string reg = "(?=.*[A-Z])(?=.*[0-9]).{8}";
-        public static bool validate(string word)
-        {
-            //return true if the word matches the regex
-            return Regex.IsMatch(word, reg);
-        }
-    }
+    //internal class UR7_Rule2
+    //{
+    //    public static string reg = "(?=.*[A-Z])(?=.*[0-9]).{8}";
+    //    public static bool validate(string word)
+    //    {
+    //        //return true if the word matches the regex
+    //        return Regex.IsMatch(word, reg);
+    //    }
+    //}
 }
